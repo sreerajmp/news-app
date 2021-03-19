@@ -3,9 +3,6 @@ import React from 'react';
 
 
 export default class UserService extends React.Component {
-    constructor(props) {
-    }
-
    
     authenticate(data) {
         return new Promise((resolve, reject) => {
