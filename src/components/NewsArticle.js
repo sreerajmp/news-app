@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import {
   Card,
   CardSubtitle,
@@ -8,9 +7,7 @@ import {
   CardBody,
   CardFooter,
   CardTitle,
-  Row,
   Button,
-  CardImg,
   Col,
 } from "reactstrap";
 class NewsArticle extends React.Component{
@@ -52,7 +49,7 @@ class NewsArticle extends React.Component{
       <CardFooter className="text-muted">Source:{data.source}</CardFooter>
       </Col>
       <Col >
-      <img className="card-img-right"  src={data.multimedia?data.multimedia[0].url:''} alt="Card image cap" />
+      <img className="card-img-right"  src={data.multimedia?data.multimedia[0].url:''} alt="" />
       </Col>
       </CardBody>
       </Card>   

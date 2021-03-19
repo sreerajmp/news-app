@@ -24,8 +24,8 @@ class NewsPage extends React.Component {
   handlePagination=(filter)=>{
     console.log("filter123:",filter);
     this.setState(prevState => {
-      return {offset: filter == 'first' ? 0:filter == 'previous'&& this.state.offset>=20 ? prevState.offset - 20:
-      filter==='next'&& this.state.offset!=480?prevState.offset + 20:filter==='last'?480:0}
+      return {offset: filter === 'first' ? 0:filter === 'previous'&& this.state.offset>=20 ? prevState.offset - 20:
+      filter==='next'&& this.state.offset!==480?prevState.offset + 20:filter==='last'?480:0}
    },()=>{
      this.fetchNews(this.state.sectionSelection,this.state.offset);
     })      

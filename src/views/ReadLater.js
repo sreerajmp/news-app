@@ -9,13 +9,9 @@ import {
     CardBody,
     CardFooter,
     CardTitle,
-    Row,
     Button,
-    CardImg,
     Col,
 } from "reactstrap";
-import NewsArticle from '../components/NewsArticle';
-
 class ReadLater extends React.Component {
     constructor(props) {
         super(props);

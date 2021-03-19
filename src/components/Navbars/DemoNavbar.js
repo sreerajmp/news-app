@@ -29,11 +29,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  Container,
-  InputGroup,
-  InputGroupText,
-  InputGroupAddon,
-  Input,
+  Container
 } from "reactstrap";
 
 import routes from "routes.js";

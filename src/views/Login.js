@@ -96,19 +96,7 @@ class Login extends React.Component {
                     <Input onChange={(e => this.inputChange(e, "password"))} placeholder="Password" type="password" autoComplete="new-password" />
                   </InputGroup>
                 </FormGroup>
-                {/* <div className="custom-control custom-control-alternative custom-checkbox">
-                  <input
-                    className="custom-control-input"
-                    id=" customCheckLogin"
-                    type="checkbox"
-                  />
-                  <label
-                    className="custom-control-label"
-                    htmlFor=" customCheckLogin"
-                  >
-                    <span className="text-muted">Remember me</span>
-                  </label>
-                </div> */}
+                
                 <div className="text-center">
                   <Button onClick={this.loginSubmit} className="my-4" color="primary" type="button">
                     Log in

@@ -23,7 +23,6 @@ import { Route, Switch, Redirect } from "react-router-dom";
 
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import routes from "routes.js";
-import NewsPage from "views/NewsPage";
 var ps;
 
 class UserLayout extends React.Component {
